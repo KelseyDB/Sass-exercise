@@ -1,9 +1,9 @@
 body {
   font: 100% "Space Mono", monospace;
-  color: #2748b3;
+  color: #7C81AD;
   margin: 0px;
   padding: 0px;
-  background-color: black;
+  background-color: #FFD0D0;
   background-image: radial-gradient(#fff, rgba(255, 255, 255, 0.2) 2px, transparent 40px), radial-gradient(#fff, rgba(255, 255, 255, 0.15) 1px, transparent 30px), radial-gradient(#fff, rgba(255, 255, 255, 0.1) 2px, transparent 40px), radial-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.1) 2px, transparent 30px);
   background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
   background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
@@ -30,7 +30,7 @@ article section#selling-points {
   flex-basis: 100%;
 }
 article pre {
-  background: black;
+  background: #FF9EAA;
   border: 1px solid #ddd;
   color: #666;
   font-family: monospace;
@@ -55,7 +55,7 @@ article pre.after {
 h1,
 h2,
 h6 {
-  color: #6b8eff;
+  color: #2E4374;
 }
 
 h1 {
@@ -73,8 +73,8 @@ h6 {
   border: 1px solid #ccc;
   padding: 16px;
   margin: 16px;
-  color: #2748b3;
-  background-color: black;
+  color: #7C81AD;
+  background-color: #FFD0D0;
 }
 
 .success {
@@ -87,4 +87,4 @@ h6 {
 
 .warning {
   background-color: orange;
-}/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=blue.css.map */

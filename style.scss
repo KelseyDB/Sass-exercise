@@ -1,3 +1,9 @@
+$padding: 16px;
+$bg-color: black !default;
+$header-color: #6b8eff !default;
+$text-color: #2748b3 !default;
+$block-color: black !default;
+
 @mixin box-shadow {
   -webkit-box-shadow: 10px 10px 19px -4px rgba(255, 255, 255, 0.75);
   -moz-box-shadow: 10px 10px 19px -4px rgba(255, 255, 255, 0.75);
@@ -5,14 +11,12 @@
 
 }
 
-$padding: 16px;
-
 body {
     font: 100% "Space Mono", monospace;
-    color: #2748b3;
+    color: $text-color;
     margin: 0px;
     padding: 0px;
-    background-color: #ffceef;
+    background-color: $bg-color;
     background-image: radial-gradient(
         #fff,
         rgba(255, 255, 255, 0.2) 2px,
@@ -53,7 +57,7 @@ body {
   
 
     pre {
-      background: #000;
+      background: $block-color;
       border: 1px solid #ddd;
       color: #666;
       font-family: monospace;
@@ -81,7 +85,7 @@ body {
   h1,
   h2,
   h6 {
-    color: #6b8eff;
+    color: $header-color;
   }
   
   h1 {
@@ -99,8 +103,8 @@ body {
     border: 1px solid #ccc;
     padding: $padding;
     margin: 16px;
-    color: #2748b3;
-    background-color: #000;
+    color: $text-color;
+    background-color: $bg-color;
   }
   
   .success {
