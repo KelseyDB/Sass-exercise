@@ -11,23 +11,34 @@ body {
 }
 
 article {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 article section {
+  -webkit-box-shadow: 10px 10px 19px -4px rgba(255, 255, 255, 0.75);
   box-shadow: 10px 10px 19px -4px rgba(255, 255, 255, 0.75);
-  flex-grow: 1;
-  flex-basis: 45%;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -ms-flex-preferred-size: 45%;
+      flex-basis: 45%;
   border: 1px silver solid;
   padding: 16px;
   margin: 16px;
   clear: both;
   overflow: auto;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 article section#selling-points {
-  flex-grow: 2;
-  flex-basis: 100%;
+  -webkit-box-flex: 2;
+      -ms-flex-positive: 2;
+          flex-grow: 2;
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
 }
 article pre {
   background: black;
@@ -87,4 +98,4 @@ h6 {
 
 .warning {
   background-color: orange;
-}/*# sourceMappingURL=style.css.map */
+}
